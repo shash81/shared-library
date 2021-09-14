@@ -1,4 +1,4 @@
-package build.stage
+package build.stages
 
 public class buildStage{
     def build( String build ){
