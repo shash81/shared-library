@@ -6,11 +6,11 @@ public class buildStage{
     }
 
     def test( String test ){
-        echo "this is test stage: ${test}"
+        return "this is test stage: ${test}"
     }
 
     def deploy( String deployStage ){
-        echo "this is test stage: ${deployStage}"
+        return "this is test stage: ${deployStage}"
     }
 
 }
