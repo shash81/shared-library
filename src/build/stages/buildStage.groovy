@@ -7,7 +7,7 @@ public buildStage{
         echo "this is test stage: ${test}"
     }
 
-    def test( String deployStage ){
+    def deploy( String deployStage ){
         echo "this is test stage: ${deployStage}"
     }
 
