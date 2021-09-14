@@ -1,3 +1,5 @@
+package build.stage
+
 public class buildStage{
     def build( String build ){
         echo "this is build stage: ${build}"
