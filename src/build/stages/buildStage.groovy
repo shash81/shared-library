@@ -2,7 +2,7 @@ package build.stages
 
 public class buildStage{
     def build( String build ){
-        echo "this is build stage: ${build}"
+        return "this is build stage: ${build}"
     }
 
     def test( String test ){
