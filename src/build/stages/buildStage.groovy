@@ -10,7 +10,7 @@ public class buildStage{
     }
 
     def deploy( String deployStage ){
-        return "this is test stage: ${deployStage}"
+        return "this is deploy stage: ${deployStage}"
     }
 
 }
